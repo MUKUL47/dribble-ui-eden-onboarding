@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  font-family: "Inter";
+}
+:root {
+  --bg-color: #e9edf400;
+  --white: #fff;
+  --theme: #5d5fee;
+  --theme-light: #5d5feeb4;
+  --grey: #8885;
+  --black: #000;
+}
+.onboarding {
+  background-color: #88888852;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.align-center {
+  align-items: center;
+}
+.onboarding-process {
+  width: 90%;
+  /* background-color: var(--white); */
+  height: 85%;
+  justify-content: center;
+  /* gap: 1.75rem; */
+  background: var(--white);
+  border-radius: 5px;
+}
+.onboarding-process_header {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+.onboarding-forms {
+  margin-top: 2rem;
+  height: 14rem;
+}
+input {
+  outline: none;
+}
+/* STEP */
+/*  */
+.gap-5 {
+  gap: 5px;
+}
+.gap-15 {
+  gap: 15px;
+}
+.padding-10 {
+  padding: 10px;
+}
+.font-12 {
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-16 {
+  font-size: 1rem;
+}
+.font-18 {
+  font-size: 18px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
